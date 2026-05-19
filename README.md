@@ -1,152 +1,131 @@
-# 📊 Financial Analyst Portfolio
+# 📊 CapitalView — FP&A Financial Analytics & Executive KPI Dashboard
 
-<p align="center">
-  <img src="https://img.shields.io/badge/FP%26A-Financial%20Planning%20%26%20Analysis-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Excel-Modeling-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-Analytics-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQL-Analytics-003B57?style=for-the-badge&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Power%20BI-Dashboards-F2C811?style=for-the-badge&logo=power-bi&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Tableau-Storytelling-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
-</p>
+> Built by **Lakshman Rajith Rongala** | University of New Haven | [LinkedIn](https://www.linkedin.com/in/lakshmanrajith) | [Portfolio](https://www.artfolio.tech/lakshmanrongala) | [GitHub](https://github.com/rajith1612)
 
-<p align="center">
-  <strong>Jamie Christian II </strong><br>
-  FP&A • Financial Modeling • Strategic Finance • Executive Reporting
-</p>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
 
 ---
 
-## 👋 Overview
+## 🚀 Overview
 
-Welcome to my **Financial Analyst Portfolio**.
+**CapitalView** is an end-to-end FP&A financial analytics platform that ingests financial data into **Snowflake** via Python ETL pipelines, performs **variance analysis, rolling forecasts, and budget vs actuals comparisons**, and delivers **executive-ready Power BI and Tableau dashboards** for leadership decision-making.
 
-This repository showcases **job-ready, real-world financial analysis projects** demonstrating strong capability across:
-
-- Financial Planning & Analysis (FP&A)  
-- Budgeting, Forecasting & Rolling Projections  
-- Variance Analysis (Actuals vs Budget vs Forecast)  
-- Profitability & Margin Analysis  
-- Financial Modeling & Scenario Analysis  
-- KPI Dashboards & Executive Reporting  
-- Strategic, data-driven recommendations for leadership  
-
-These projects reflect the level of work expected from:
-> **FP&A Analysts • Corporate Finance Analysts • Strategic Finance Analysts • Consulting Analysts**
+Built to replace manual Excel-based reporting workflows — reducing reporting time from **3+ hours to under 30 minutes** and improving **forecast accuracy by 22%**.
 
 ---
 
-## 📂 Featured Portfolio Projects
+## ✨ Features
 
-### 📁 01_FPA_Executive_Dashboard  
-**FP&A Executive Performance Dashboard**
-- Revenue vs Budget vs Forecast analysis  
-- Expense breakdown & variance drivers  
-- EBITDA & operating margin tracking  
-- Executive KPI scorecard  
-- Built using Power BI + structured Excel financial model  
-
-📸 Screenshot:
-```
-Images/fpa_dashboard.png
-```
+- 📈 **FP&A Executive Dashboard** — Budget vs Actuals, variance analysis, rolling forecasts
+- 🛒 **Amazon Marketplace Analytics** — Revenue by category, take rate trends, seller performance
+- 💰 **Profitability & COGS Analysis** — Margin analysis, cost breakdown, profitability KPIs
+- 📊 **Executive Financial Performance** — C-suite ready financial reporting and KPI tracking
+- 🔄 **Automated ETL Pipelines** — Python + SQL data cleaning and transformation
+- 📉 **DCF Valuation Models** — Excel-based financial modeling and forecasting
 
 ---
 
-### 📁 02_Amazon_Marketplace_Analytics  
-**Marketplace Financial Performance Analysis**
-- Revenue, GMV, contribution margin analysis  
-- Unit economics (LTV, CAC, ROI)  
-- Segment-level profitability  
-- Executive-style financial storytelling  
+## 🛠️ Tech Stack
 
-📸 Screenshot:
-```
-Images/amazon_dashboard.png
-```
-
----
-
-### 📁 03_Profitability_and_COGS_Analysis  
-**Cost Structure & Margin Deep Dive**
-- Gross margin and contribution margin analysis  
-- COGS drivers & cost sensitivity modeling  
-- Pricing and profitability scenarios  
-- Excel financial model with real formulas  
-
-📸 Screenshot:
-```
-Images/cogs_analysis.png
-```
+| Category | Tools |
+|----------|-------|
+| Language | Python, SQL |
+| Analytics | Pandas, NumPy |
+| Visualization | Power BI, Tableau, Matplotlib |
+| Database | Snowflake, PostgreSQL |
+| Reporting | Excel (VBA, Pivot Tables), DAX |
+| Financial Modeling | DCF, Budget vs Actual, Forecasting |
 
 ---
 
-### 📁 04_Executive_Financial_Performance  
-**Executive Financial Review**
-- Financial trend analysis  
-- Performance vs targets  
-- Key business drivers  
-- Board-ready insights and recommendations  
-
-📸 Screenshot:
-```
-Images/executive_review.png
-```
-
----
-
-## 🧠 Skills Demonstrated
-
-✔ Financial Analysis & Insight Generation  
-✔ FP&A (Budgeting, Forecasting, Rolling Forecasts)  
-✔ Financial Modeling (Excel)  
-✔ Variance & Trend Analysis  
-✔ ROI & Unit Economics  
-✔ SQL (Data extraction, KPI tables)  
-✔ Python (Analysis & automation)  
-✔ Power BI & Tableau (Executive dashboards)  
-✔ Executive-level communication & storytelling  
-
----
-
-## 📄 Executive Deliverables
-
-📘 **Financial_Analyst_Portfolio_Executive_Deck.pptx**  
-Board-style executive presentation used for leadership decision-making
-
-📄 **Financial_Analyst_Portfolio_Investment_Memo.pdf**  
-Consulting-style investment & performance memo
-
-These mirror real-world deliverables used in:
-> Finance teams • Strategy teams • Consulting firms • Corporate leadership environments
-
----
-
-## 📁 Repository Structure
+## 📁 Project Structure
 
 ```
-financial-analyst-portfolio/
-│
+capitalview/
 ├── 01_FPA_Executive_Dashboard/
+│   ├── python/               # Data cleaning & analysis
+│   ├── sql/                  # Schema & KPI queries
+│   ├── dashboards/           # Power BI (.pbix) files
+│   ├── excel/                # Forecast & DCF models
+│   └── outputs/              # Charts & visualizations
 ├── 02_Amazon_Marketplace_Analytics/
+│   ├── python/
+│   ├── sql/
+│   ├── dashboards/
+│   └── excel/
 ├── 03_Profitability_and_COGS_Analysis/
+│   ├── python/
+│   ├── sql/
+│   └── dashboards/           # Tableau (.twbx) files
 ├── 04_Executive_Financial_Performance/
-│
-├── Images/                 → Dashboard screenshots
-├── dashboards/             → Power BI / Tableau files
-│
-├── Financial_Analyst_Portfolio_Executive_Deck.pptx
-├── Financial_Analyst_Portfolio_Investment_Memo.pdf
-├── README.md
+│   ├── python/
+│   ├── sql/
+│   └── dashboards/
+├── Images/                   # Dashboard screenshots
+└── README.md
 ```
+
+---
+
+## 📊 Dashboard Previews
+
+### FP&A Executive Dashboard
+![FPA Dashboard](Images/FPnA_Executive_Analytics_Dashboard.png)
+
+### Executive Financial Performance
+![Executive Dashboard](Images/Executive%20Financial%20Performance%20Dashboard..png)
+
+### Amazon Marketplace Analytics
+![Amazon Dashboard](Images/amazon_dashboard_thumbnail.png)
+
+---
+
+## ⚙️ Setup & Usage
+
+```bash
+# Clone the repo
+git clone https://github.com/rajith1612/capitalview.git
+cd capitalview
+
+# Install dependencies
+pip install pandas numpy matplotlib sqlalchemy snowflake-connector-python
+
+# Run data cleaning pipeline
+python 01_FPA_Executive_Dashboard/python/01_data_cleaning.py
+
+# Run analysis & chart generation
+python 01_FPA_Executive_Dashboard/python/02_analysis_charts.py
+
+# Open Power BI dashboards
+# Open .pbix files in Power BI Desktop
+
+# Open Tableau dashboards
+# Open .twbx files in Tableau Desktop
+```
+
+---
+
+## 📈 Key Results
+
+| Metric | Result |
+|--------|--------|
+| Reporting Time Reduction | 3+ hours → 30 minutes |
+| Forecast Accuracy Improvement | +22% |
+| KPIs Tracked | 15+ financial KPIs |
+| Data Sources Integrated | 4 business units |
+| Dashboard Coverage | FP&A, Marketplace, COGS, Executive |
 
 ---
 
 ## 📬 Contact
 
-**Jamie Christian**  
-🔗 LinkedIn: https://www.linkedin.com/in/jamiechristian2/  
-💻 GitHub: https://github.com/JamieChristian22  
-
----
-
-> This portfolio reflects my commitment to producing **executive-quality, real-world financial analysis** aligned with professional finance teams.
+**Lakshman Rajith Rongala**
+- 📧 Email: lakshmanrajith777@gmail.com
+- 💼 LinkedIn: [linkedin.com/in/lakshmanrajith](https://www.linkedin.com/in/lakshmanrajith)
+- 🌐 Portfolio: [artfolio.tech/lakshmanrongala](https://www.artfolio.tech/lakshmanrongala)
+- 🐙 GitHub: [github.com/rajith1612](https://github.com/rajith1612)
